@@ -9,7 +9,7 @@ package ejemplos02;
  *
  * @author reroes
  */
-public class Ejemplo044 {
+public class Ejemplo045 {
 
     public static void main(String[] args) {
         // 
