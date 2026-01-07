@@ -9,11 +9,8 @@ package ejemplos03;
  * @author ASUS
  */
 public class ejemplo06 {
-    static int suma = 0; // variable de alcance global
-                         // se la puede usar en cualquier método
-                         // hemos declarado la variable estática
-                         // porque estamos usando métodos estáticos
-
+    static int suma = 0; 
+    
     public static void main(String[] args) {
         //
         System.out.printf("Valor de variable suma (main): %d\n", suma);
