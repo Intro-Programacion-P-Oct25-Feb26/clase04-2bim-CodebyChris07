@@ -17,11 +17,13 @@ public class Ejemplo045 {
         int[][] arreglo1 = {{1, 2, 3}, {3, 2, 4}, {2, 6, 2}};
         int[][] arreglo2 = {{1, 2, 3}, {2, 2, 2}, {3, 1, 2}};
         int[][] arreglo3 = llenarMatriz(arreglo1, arreglo2);
+        double[][] arreglo4 = llenarMatriz2(arreglo1, arreglo2);
         // int [][] arreglo3 = new int[3][3];
 
         obtenerReporte(arreglo1);
         obtenerReporte(arreglo2);
         obtenerReporte(arreglo3);
+        obtenerReporte(arreglo4);
     }
 
     public static int[][] llenarMatriz(int[][] x, int[][] y) {
@@ -34,6 +36,7 @@ public class Ejemplo045 {
         }
         return z;
     }
+    
 
     public static void obtenerReporte(int[][] arreglo1) {
         String cadena = "";
@@ -51,6 +54,15 @@ public class Ejemplo045 {
         operacion = a * b;
         return operacion;
 
+    }
+    public static double obtenetPotencia (int a, int b){
+    double potencia;
+    a = (int)(a * 1.00);
+    b = (int)(b * 1.00);
+    potencia = Math.pow(a, b); 
+    
+    
+    
     }
 
 }
